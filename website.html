@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Liam Mullally Personal Website</title>
+<link rel="icon" src="icon.jpg">
+<style>
+    body {
+        background-color: rgb(40, 40, 40);
+        font-size: 200%;
+        font-family: "Consolas", sans-serif, monospace;
+        color: aqua;
+    }
+    p {
+        text-align: justify;
+    }
+    h1 {
+        color: chartreuse;
+        margin-top: 0;
+    }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-spacing: 50px;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+    }
+    .left {
+        width: 50%;
+        float: left;
+    }
+    .right {
+        width: 40%;
+        float: right;
+        display: flex;
+    }
+    .right img {
+        width:25%;
+        max-width:100%; 
+        height:auto;
+        border: 5px solid chartreuse; padding: 10px;
+        margin:auto;
+        position:fixed;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .footer {
+        display: inline;
+        width: 100%;
+        text-align: center;
+        color: magenta;
+        font-size: 50%;
+    }
+    a {
+        text-decoration: none;
+        color:magenta
+    }
+    a:hover {
+        text-decoration: none;
+        color:chartreuse
+    }
+</style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th><a href="home.html">home</a></th>
+                <th><a href="about.html">about</a></th>
+                <th><a href="publications.html">publications</a></th>
+                <th><a href="cv.html">cv</a></th>
+                <th><a href="contact.html">contact</a></th>
+            </tr>
+        </thead>
+    </table>
+
+    <div class="container clearfix">
+        <div class="right">
+            <img class="center-fit" src="headshot.jpg" alt="Headshot of Liam" style="max-width: 50%;">
+        </div>
+        <div class="left">
+            <h1>Liam Mullally</h1>
+            <p>I'm an interdisciplinary researcher and writer who focuses on, in one form or another, materialist media studies, information infrastructures and technologies of socialisation.</p>
+            <p>I work between a few knowledge-industries: today I am a PhD student and an associate lecturer at Goldsmiths, University of London, and a researcher at the Autonomy Institute. I've previously worked as a journalist and, before that, a copywriter.</p>
+            <p>At Goldsmiths, I am researching the history and cultural politics of inforamtion processes, notably compression and encryption. I have taught courses in digital art and culture, media theory, cultural politics and film studies. I've published and presented work on JPEG, psycho-visual models, the digital commodity form, Stuart Hall's encoding/decoding model and the politics of idleness.</p>
+            <p>Within the Autonomy Institute's Policy Studio, I work on progressive policy proposals for work, welfare and the climate.</p>
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        <p>website written (badly) by me in html while sick (july 2024)</p>
+    </div>
+</body>
+</html>
