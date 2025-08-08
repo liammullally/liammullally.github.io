@@ -16,7 +16,10 @@
         color: aqua;}
         h3 {
             color: aqua;}
-    table {
+   strong {
+  color: magenta;
+}
+            table {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
