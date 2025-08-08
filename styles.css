@@ -25,16 +25,14 @@
     }
 
     .container {
-        display: block;
+        display: flex;
         width: 100%;
     }
     .left {
         width: 50%;
-        float: left;
     }
     .right {
         width: 40%;
-        float: right;
         display: flex;
     }
     .right img {
@@ -43,7 +41,7 @@
         height:auto;
         border: 5px solid chartreuse; padding: 10px;
         margin:auto;
-        position:fixed;
+        position:static;
     }
     .clearfix::after {
         content: "";
@@ -67,3 +65,17 @@
     }
     li {
   margin-bottom: 1em;}
+
+  @media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .right, .left {
+    width: 100%;
+    float: none;
+  }
+  .right {
+    order: -1;
+    margin-bottom: 20px;
+  }
+}
