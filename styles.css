@@ -39,7 +39,8 @@
         height:auto;
         border: 5px solid chartreuse; padding: 10px;
         margin:auto;
-        position:static;
+        position:static
+        position:fixed;
     }
     .clearfix::after {
         content: "";
