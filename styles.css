@@ -78,6 +78,11 @@
     order: -1;
     margin-bottom: 20px;
   }
+    .right img {
+    position: static;
+    width: 100%;
+    margin-left: 0;
+  }
 }
 body {
         font-size: 180%;    
