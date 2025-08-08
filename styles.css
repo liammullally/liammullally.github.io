@@ -35,12 +35,13 @@
         width: 40%;
     }
     .right img {
-        width:100%;
+        width:30%;
         height:auto;
-        border: 5px solid chartreuse; padding: 10px;
-        margin:auto;
-        position:static
+        border: 5px solid cyan;
+        padding: 10px;
+        margin-left: 5%;
         position:fixed;
+        display:block;
     }
     .clearfix::after {
         content: "";
@@ -78,3 +79,12 @@
     margin-bottom: 20px;
   }
 }
+body {
+        font-size: 180%;    
+    }
+    p {
+        font-size: 1.1em;
+    }
+    h1, h2, h3 {
+        font-size: 1.4em; 
+        }
