@@ -1,0 +1,69 @@
+    body {
+        background-color: rgb(40, 40, 40);
+        font-size: 150%;
+        font-family: "Consolas", sans-serif, monospace;
+        color: chartreuse;
+        padding: 20px;
+    }
+    p {
+        text-align: justify;
+    }
+    h1 {
+        color: aqua;
+        margin-top: 0;
+    }
+    h2 {
+        color: aqua;}
+        h3 {
+            color: aqua;}
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-spacing: 50px;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+    }
+    .left {
+        width: 50%;
+        float: left;
+    }
+    .right {
+        width: 40%;
+        float: right;
+        display: flex;
+    }
+    .right img {
+        width:25%;
+        max-width:100%; 
+        height:auto;
+        border: 5px solid chartreuse; padding: 10px;
+        margin:auto;
+        position:fixed;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .footer {
+        display: inline;
+        width: 100%;
+        text-align: center;
+        color: magenta;
+        font-size: 50%;
+    }
+    a {
+        text-decoration: none;
+        color:magenta
+    }
+    a:hover {
+        text-decoration: none;
+        color:chartreuse
+    }
+    li {
+  margin-bottom: 1em;}
